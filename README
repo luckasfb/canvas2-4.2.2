@@ -1,0 +1,7 @@
+Kernel Source
+=============
+
+cd kernel/
+export TARGET_PRODUCT=s9081 MTK_ROOT_CUSTOM=../mediatek/custom
+export CROSS_COMPILE="~/toolchains/arm-eabi-linaro-4.6.2/bin/arm-eabi-"
+make -j3
